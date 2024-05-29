@@ -22,10 +22,10 @@
 <input type="email" name="email" placeholder="Vul je email in"><br>
 
 <p>Gewicht in kg:</p>
-<input type="number" name="gewicht" placeholder="Vul je gewicht in"><br>
+<input name="gewicht" placeholder="Vul je gewicht in"><br>
 
 <p>Lengte in meters:</p>
-<input type="number" name="lengte" placeholder="Vul je lengte in"><br><br>
+<input name="lengte" placeholder="Vul je lengte in"><br><br>
 
 <label>Geslacht:</label>
 <select name="geslacht">
