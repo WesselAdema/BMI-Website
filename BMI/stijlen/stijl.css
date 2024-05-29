@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    overflow: hidden;
+}
+
+#inputForm {
+    float: left;
+    width: fit-content;
+    padding: 50px 0;
+}
+
+#grafiek {
+    float: right;
+    width: fit-content;
+    padding-top: 5%;
+}
+
+input, select{
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+.knop, button {
+    background-color: gray;
+    border: solid black 1px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.knop:hover {
+    cursor:pointer;
+}
+
+canvas {
+    height: 500px; 
+    margin: auto;
+    display: block;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 3px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
